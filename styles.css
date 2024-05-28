@@ -1,0 +1,135 @@
+body {
+    font-family: Papyrus, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0d7c2; /* Light yellow */
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #f5f5f5; /* Light gray */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-family: Papyrus, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3d3329; /* Brown */
+}
+
+.controls-container {
+    font-family: Papyrus, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+}
+
+.control-group {
+    font-family: Papyrus, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.control-group:not(:last-child) {
+    margin-right: 20px; /* Add margin between control groups, except the last one */
+}
+
+label {
+    font-family: Papyrus, sans-serif;
+    margin-right: 5px;
+}
+
+input {
+    font-family: Papyrus, sans-serif;
+    padding: 8px;
+    font-size: 14px;
+    width: 120px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons-container {
+    font-family: Papyrus, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    font-family: Papyrus, sans-serif;
+    display: flex;
+    margin-top: 10px;
+}
+
+.buttons button {
+    font-family: Papyrus, sans-serif;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #6c5e53; 
+    color: white;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.buttons button:last-child {
+    margin-right: 0;
+}
+
+.buttons button:hover {
+    background-color: #4c4239; 
+}
+
+.main-container {
+    font-family: Papyrus, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    align-content: start; 
+    margin-top: 20px; 
+}
+
+.div-box {
+    font-family: Papyrus, sans-serif;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8e8e; 
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #dcdcdc; 
+}
+
+.fizzbuzz {
+    background-color: #d4ac0d; 
+}
+
+.fizz {
+    background-color: #779a7b; 
+}
+
+.buzz {
+    background-color: #8fa8d6;
+}
+
+.normal {
+    background-color: #dcdcdc; 
+}
